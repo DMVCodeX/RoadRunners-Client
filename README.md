@@ -16,4 +16,4 @@ Single page app with client side routing build in React working in Vite with HMR
 
 ## Fonts
 
-- [https://fonts.google.com/]
+- Google Fonts[https://fonts.google.com/]
