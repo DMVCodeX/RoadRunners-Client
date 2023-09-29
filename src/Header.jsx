@@ -32,13 +32,15 @@ export function Header() {
 
   return (
     <>
-      <img
-        className="centered-image"
-        src="https://res.cloudinary.com/dlrkhf7ne/image/upload/v1696007285/Road_2520Runners_2520Autosales-01_hkhpfi.png"
-        alt=""
-        height={220}
-        width={220}
-      />
+      <a href="/home">
+        <img
+          className="centered-image"
+          src="https://res.cloudinary.com/dlrkhf7ne/image/upload/v1696007285/Road_2520Runners_2520Autosales-01_hkhpfi.png"
+          alt=""
+          height={220}
+          width={220}
+        />
+      </a>
       <header className="bg-white">
         <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
           <div className="flex lg:flex-1">
@@ -113,10 +115,11 @@ export function Header() {
               </Transition>
             </Popover>
 
+            {/* These are the main nav bar items */}
             <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
               Features
             </a>
-            <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+            <a href="/marketplace" className="text-sm font-semibold leading-6 text-gray-900">
               Marketplace
             </a>
             <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
@@ -185,7 +188,7 @@ export function Header() {
                     Features
                   </a>
                   <a
-                    href="/marketplace"
+                    href="#"
                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                   >
                     Marketplace
