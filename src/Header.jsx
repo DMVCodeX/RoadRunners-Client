@@ -37,8 +37,8 @@ export function Header() {
           className="centered-image"
           src="https://res.cloudinary.com/dlrkhf7ne/image/upload/v1696007285/Road_2520Runners_2520Autosales-01_hkhpfi.png"
           alt=""
-          height={220}
-          width={220}
+          height={500}
+          width={500}
         />
       </a>
       <header className="bg-white">

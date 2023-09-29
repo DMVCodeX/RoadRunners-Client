@@ -2,7 +2,7 @@ export function Footer() {
   return (
     <>
       <div className="center-text">
-        <p>Copyright Dianelly Ventura 2023</p>
+        <h1 className="barcode-font text-base">Copyright Dianelly Ventura 2023</h1>
       </div>
     </>
   );
