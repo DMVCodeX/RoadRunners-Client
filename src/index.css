@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+.centered-image {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin: auto;
+
+}
+
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
