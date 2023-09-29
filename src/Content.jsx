@@ -1,3 +1,9 @@
+import { Route, Routes } from "react-router-dom";
+
 export function Content() {
-  return <h1>Content will go here</h1>;
+  return (
+    <Routes>
+      <Route path="" />
+    </Routes>
+  );
 }
